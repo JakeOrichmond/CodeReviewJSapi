@@ -10,5 +10,6 @@ exports.getRepos = function(user){
     });
   }).fail(function(error){
     console.log(error.responseJSON.message);
+    $("#searchResults").append("Error: No user with that name found.")
   });
 };

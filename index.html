@@ -9,10 +9,26 @@
     <title>GitHub Search</title>
   </head>
   <body>
-    <label for="userSearch">Enter a User:</label>
-    <input id="userSearch" type="text" name="userSearch">
-    <button id="searchSubmit" class="btn">SEARCH</button>
-
-    <div id="searchResults"></div>
+    <div class="container">
+      <div id="searchJumbo" class="jumbotron">
+        <div id="logoContainer">
+          <img src="./images/github-logo.png" alt="github logo"/>
+        </div>
+        <div id="searchContainer" class="container">
+          <h2>Enter a Github username and get a list of their repositories.</h2>
+          <label for="userSearch">Enter a user:</label>
+          <input id="userSearch" type="text" name="userSearch">
+          <br>
+          <button id="searchSubmit" class="btn">SEARCH</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="resultsJumbo" class="jumbotron">
+        <div id="resultsContainer" class="container">
+          <div id="searchResults"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

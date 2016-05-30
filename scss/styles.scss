@@ -1,1 +1,21 @@
-
+#searchJumbo {
+  margin-top: 100px;
+  min-height: 500px;
+  border-radius: 100%;
+  #logoContainer {
+    text-align: center;
+    margin: 100px;
+  }
+  #searchContainer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
+  }
+  #userSearch{
+    line-height: 20px;
+  }
+  #searchSubmit {
+    background-color: lightblue;
+    
+  }
+}
