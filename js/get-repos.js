@@ -11,6 +11,6 @@ exports.getRepos = function(user){
     $("#username").append("<h1>User: " + user + "</h1>");
   }).fail(function(error){
     console.log(error.responseJSON.message);
-    $("#searchResults").append("Error: No user with that name found.");
+    $("#searchResults").append("<h1>Error: No user with that name found.</h1>");
   });
 };
