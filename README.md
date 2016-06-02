@@ -2,7 +2,7 @@
 
 #### _Code Review for 5.27.16_
 
-#### _By Joshua Logan_
+#### _By Jake Richmond_
 
 ## _Description_
 
@@ -31,7 +31,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_If you need help please check the Contact me at joshlogan32323@gmail.com_
+_If you need help please check the Contact me at jakeorichmond@gmail.com_
 
 ## Technologies Used
 
@@ -41,4 +41,4 @@ _JavaScript, Gulp, SASS, and HTML_
 
 *This webpage was created under the MIT license*
 
-Copyright (c) 2016 **_Joshua Logan_**
+Copyright (c) 2016 **Jake Richmond_**

@@ -2,7 +2,9 @@
   margin-top: 100px;
   min-height: 500px;
   border-radius: 100%;
+  background-color: green;
   #logoContainer {
+    vertical-align: middle;
     text-align: center;
     margin: 100px;
   }
@@ -15,11 +17,11 @@
     line-height: 20px;
   }
   #searchSubmit {
-    background-color: white;
+    // background-color: white;
     color: black;
     border-radius: 50%;
     min-height: 75px;
-    border: 3px outset gray;
+    // border: 3px outset gray;
   }
   #searchSubmit:hover {
     background-color: black;
@@ -28,6 +30,19 @@
   }
 }
 
-#resultsContainer{
+#resultsContainer {
   text-align: center;
+  background-color: green;
+}
+.jumbotron {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  margin-right: 100px;
+  padding-right: 100px;
 }
